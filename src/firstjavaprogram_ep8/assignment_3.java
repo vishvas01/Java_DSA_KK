@@ -14,8 +14,7 @@ public class assignment_3 {
         float r = scan.nextFloat();
         System.out.print("enter time period:");
         float t = scan.nextFloat();
-        scan.close();
-
+        scan.close(); 
         System.out.println("the simple interest is:"+ p*r*t/100);
 
     }
