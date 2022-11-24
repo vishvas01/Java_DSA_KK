@@ -9,7 +9,4 @@ public class easy_1812 {
 
            return (((int)coordinates.charAt(0)%97)+coordinates.charAt(1))%2 == 0;  
             }
-       
     }
-
-
