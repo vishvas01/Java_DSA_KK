@@ -1,5 +1,5 @@
 package leetcode;
-
+// not optimised
 public class easy_2446 {
     class Solution {
         public static void main(String[] args) {
