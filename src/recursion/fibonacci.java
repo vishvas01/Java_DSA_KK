@@ -1,5 +1,5 @@
 package recursion;
-
+// not optimized
 public class fibonacci {
     public static void main(String[] args) {
         System.out.println(fibo(4));
