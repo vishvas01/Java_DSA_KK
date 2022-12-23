@@ -1,5 +1,5 @@
 package leetcode;
-
+//not optimized
 import java.util.Arrays;
 
 public class easy_217 {
