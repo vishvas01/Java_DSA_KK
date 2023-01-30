@@ -4,6 +4,7 @@ public class remove_char_fromString {
     public static void main(String[] args) {
         String word = "abbcdacdac";
         System.out.println(remove2( word));
+        System.out.println(removeApple("abapplecd"));
     }
 
     static void remove1(String ans, String word){
@@ -29,6 +30,18 @@ public class remove_char_fromString {
             return remove2(word.substring(1));
         }else{
             return ch+remove2(word.substring(1));
+        }
+    }
+
+    static String removeApple(String word){
+        if(word.isEmpty()){
+            return "";
+        }
+        
+        if(word.startsWith("apple")){
+            return removeApple(word.substring(5));
+        }else{
+            return word.charAt(0)+removeApple(word.substring(1));
         }
     }
 }
