@@ -14,7 +14,7 @@ public class medium_17 {
     return telephone("",digits);
     }
 
-    public ArrayList<String> telephone(String ans,String up){
+    static ArrayList<String> telephone(String ans,String up){
         ArrayList<String> list = new ArrayList<>();
         if(up.isEmpty()){
             ArrayList<String> list1 = new ArrayList<>();
