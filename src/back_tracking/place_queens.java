@@ -2,7 +2,7 @@ package back_tracking;
 
 public class place_queens {
     public static void main(String[] args) {
-        int n=4;
+        int n=10;
         boolean[][] board= new boolean[n][n];
         System.out.println(placequeens(board, 0));
     }
