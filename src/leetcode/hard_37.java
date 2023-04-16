@@ -43,17 +43,7 @@ public class hard_37 {
         for(int i=0;i<board.length;i++){
             for(int j=0;j<board.length;j++){
                 if(board[i][j]=='.'){
-                    // for(char digit='1';digit<='9';digit++){
-                    //     if(isSafe(board,i,j,digit)){
-                    //         board[i][j]=digit;
-                    //        if(checker(board, r, c+1)){
-                    //         return true;
-                    //        }else{
-                    //         board[i][j]='.';
-                    //         //checker(board, r, c+1);
-                    //        }
-                    //     }
-                    // }
+                   
                     r=i;
                     c=j;
                     empty=true;
