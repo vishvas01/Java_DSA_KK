@@ -65,7 +65,7 @@ public class steve {
         if(in>10||in==0){
             System.out.println("invalid input"+" available "+cap);
         }else{
-        System.out.println("sold "+in+"available"+(cap-in));}
+        System.out.println("sold "+in+" available "+(cap-in));}
     }
     //jar full of candies for sale in mall counter jar has capacity n , at any point of time jar can have 
     // m number of candies. they are served to customers. jar never empty
