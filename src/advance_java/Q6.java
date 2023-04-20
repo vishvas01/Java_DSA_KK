@@ -1,3 +1,4 @@
+package advance_java;
 class VoterIdAgeRestriction extends Exception {
     public VoterIdAgeRestriction(String message) {
         super(message);
@@ -9,7 +10,7 @@ class Q6 {
     public static void checkVoterAge(int age) {
         if (age < 18) {
             try {
-                throw new VoterIdAgeRestriction("Only above 18 can vote");
+                throw new VoterIdAgeRestriction("Not valid age, not eligible to vote");
             } catch (VoterIdAgeRestriction e) {
                 System.out.println(e.getMessage());
             }
@@ -19,7 +20,7 @@ class Q6 {
     }
 
     public static void main(String[] args) {
-        int age = 10;
+        int age = 12;
         checkVoterAge(age);
     }
 }

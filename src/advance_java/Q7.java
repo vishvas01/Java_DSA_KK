@@ -1,3 +1,4 @@
+package advance_java;
 class DobAgeRestriction extends Exception {
     public DobAgeRestriction(String message) {
         super(message);
@@ -9,7 +10,7 @@ class Q7 {
     public static void checkDOB(int age) {
         if (age < 18) {
             try {
-                throw new DobAgeRestriction("Only above 18 can have a bank account.");
+                throw new DobAgeRestriction("Not eligible,above 18 can have a bank account.");
             } catch (DobAgeRestriction e) {
                 System.out.println(e.getMessage());
             }
@@ -19,7 +20,7 @@ class Q7 {
     }
 
     public static void main(String[] args) {
-        int age = 10;
+        int age = 20;
         checkDOB(age);
     }
 }
