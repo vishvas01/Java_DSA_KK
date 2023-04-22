@@ -6,6 +6,9 @@ public class beans {
     beans{
 
     }
+    void show (){
+        System.out.println("show method");
+    }
 }
 
 class main{
