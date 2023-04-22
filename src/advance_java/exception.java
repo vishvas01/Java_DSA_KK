@@ -6,6 +6,6 @@ package advance_java;
        assert (number >= 0) : "number is negative: " + number;
        // do something
        System.out.println("The number is " + number);
-       System.out.println("this was exception handling");
+      //  System.out.println("this was exception handling");
     }
  }
