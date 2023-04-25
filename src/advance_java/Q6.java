@@ -17,7 +17,7 @@ class Q6 {
         } else {
             System.out.println("You are eligible to vote");
         }
-    }
+    } 
 
     public static void main(String[] args) {
         int age = 12;

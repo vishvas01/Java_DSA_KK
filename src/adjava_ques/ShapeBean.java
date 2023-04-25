@@ -1,13 +1,9 @@
 package adjava_ques;
 import java.awt.*;
-import java.beans.PropertyDescriptor;
-import java.beans.PropertyEditorManager;
-import java.beans.SimpleBeanInfo;
-import java.io.Serializable;
+import java.beans.*;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.JFrame;
 
 public class ShapeBean implements Serializable {
     private Color backgroundColor = Color.WHITE;

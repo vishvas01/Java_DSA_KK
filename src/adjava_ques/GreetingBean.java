@@ -1,6 +1,5 @@
 package adjava_ques;
 import java.awt.Color;
-import java.awt.Font;
 import java.beans.*;
 
 public class GreetingBean implements java.io.Serializable {
