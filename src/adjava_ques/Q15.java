@@ -8,8 +8,6 @@ public class Q15 {
     
     static final String USER = "root";
     static final String PASS = "password";
-    
-
     static Connection conn = null;
     static Statement stmt = null;
     

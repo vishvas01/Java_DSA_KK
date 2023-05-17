@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Driver;
 
-
 public class jdbcConnection {
     public static void main(String args[]) {
         try {
@@ -16,9 +15,6 @@ public class jdbcConnection {
                     "jdbc:mysql://localhost:3306/ad", "root", "vishvas12345");
             // here sonoo is database name, root is username and password
             Statement stmt = con.createStatement();
-            //ResultSet rs = stmt.executeQuery("SELECT doctor.doctor_id, doctor.doctor_name, doctor.speciality, doctor.salary, doctor.experience FROM doctor JOIN hospital ON doctor.hospital_id = hospital.hospital_id WHERE hospital.hospital_name = 'Mayo Clinic'");
-            //ResultSet rs = stmt.executeQuery("SELECT doctor_id, doctor_name, speciality, salary, experience FROM doctor WHERE speciality = 'Pediatric' AND salary >= 28000;");
-            //ResultSet rs = stmt.executeQuery("SELECT hospital.hospital_id, hospital.hospital_name, hospital.bed_count, doctor.doctor_id, doctor.doctor_name, doctor.speciality, doctor.salary, doctor.experience FROM hospital JOIN doctor ON hospital.hospital_id = doctor.hospital_id WHERE hospital.hospital_id = 1 AND doctor.doctor_id = 101;");
             ResultSet rs = stmt.executeQuery("UPDATE doctor SET Experience = 3 WHERE Doctor_id = 1;");       System.out.println("succesfully updated");
 
             while (rs.next())
