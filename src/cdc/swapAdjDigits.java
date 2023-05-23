@@ -18,7 +18,6 @@ class first{
             n = (n/100);
             f *=100;
         }
-        //cdc didnt provide proper hehehe
         if(k==1){
             ans = ans*10+odd;
         }
