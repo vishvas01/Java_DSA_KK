@@ -1,4 +1,7 @@
 class Solution {
+
+    public static void main(String[] args){ 
+    }
     private void dfs(List<List<Integer>> gr, boolean[] visited, int[] c, int i) {
         visited[i] = true;
         c[0]++;
