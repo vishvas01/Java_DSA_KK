@@ -27,12 +27,12 @@ class assignment {
                 bufferedOutputStream.write(buffer, 0, bytesRead);
             }
 
-            // Flush any remaining data in the BufferedOutputStream
-            bufferedOutputStream.flush();
+            // // Flush any remaining data in the BufferedOutputStream
+            // bufferedOutputStream.flush();
 
-            // Close the BufferedInputStream and BufferedOutputStream
-            bufferedInputStream.close();
-            bufferedOutputStream.close();
+            // // Close the BufferedInputStream and BufferedOutputStream
+            // bufferedInputStream.close();
+            // bufferedOutputStream.close();
 
             System.out.println("File copied successfully!");
         } catch (IOException e) {
