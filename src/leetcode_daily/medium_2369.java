@@ -7,7 +7,7 @@ public class medium_2369 {
         int n = nums.length;
         
         boolean[] dp = new boolean[3];
-        dp[0] = true;  // An empty partition is always valid
+        dp[0] = true;  // An empty partition is always valid (yes true)
 
         for (int i = 2; i <= n; i++) {
             boolean ans = false;
