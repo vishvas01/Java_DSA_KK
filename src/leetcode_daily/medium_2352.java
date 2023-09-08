@@ -27,7 +27,7 @@ class Solution {
             }
             row++;
             temp++;
-        }
+        }//try diff method
         return pair;
     }
 }
