@@ -1,15 +1,10 @@
 class Solution {
     public String longestPalindrome(String s) {
-        // Check if the input string is empty, return an empty string if so
         if (s.isEmpty())
             return "";
-
-        // Initialize variables to store the indices of the longest palindrome found
         int[] longestPalindromeIndices = { 0, 0 };
-
-        // Loop through the characters in the input string
         for (int i = 0; i < s.length(); ++i) {
-            // Find the indices of the longest palindrome centered at character i
+ 
             int[] currentIndices = expandAroundCenter(s, i, i);
 
             // Compare the length of the current palindrome with the longest found so far
