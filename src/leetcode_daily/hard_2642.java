@@ -3,7 +3,7 @@ package leetcode_daily;
 class Graph {
     int[][] distance;
     int n;
-    final int MAX_VALUE = 500_000_000;
+  //  final int MAX_VALUE = 500_000_000;
 
     public Graph(int n, int[][] edges) {
         this.n = n;
