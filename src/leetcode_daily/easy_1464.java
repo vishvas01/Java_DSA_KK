@@ -1,6 +1,6 @@
 package leetcode_daily;
 
-class Solution {
+public class Solution {
     public int maxProduct(int[] nums) {
         int max1 = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;
